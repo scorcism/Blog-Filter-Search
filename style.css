@@ -17,11 +17,11 @@ input, button, input::placeholder{
     --bkg: var(--hue) 100% 99.6%;
     /* box shadows */
     --box-sm: 4px 6px 12px rgba(117, 106, 106, 0.308);
-    --box-lg: 2px 7px 12px rgba(173, 166, 166, 0.308);
+    --box-lg: 2px 7px 12px rgba(173, 166, 166, 0.425);
     /* sizing */
     --xlg: 2.369rem;
     --lg: 1.777rem;
-    --md: 1.333rem;
+    --md: 1.2rem;
     --sm: 1rem;
     --xsm: 0.75rem;
     /* misc */
@@ -141,6 +141,9 @@ small{
 .post__author--avatar{
     border-radius: 50%;
     box-shadow: var(--box-sm);
+    width:50px;
+    height: 50px;
+    perspective: 1px;
 }
 .post__author--role{
     color: hsl(var(--accent1));
